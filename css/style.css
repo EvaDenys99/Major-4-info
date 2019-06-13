@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+         url("./../assets/fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./../assets/fonts/Montserrat-Bold.woff2") format("woff2"),
+         url("./../assets/fonts/Montserrat-Bold.woff") format("woff");
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../assets/img/newLabel.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.headerDiv{
+    width: 33rem;
+    margin-top: 2rem;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    color: #4F152D;
+    padding: 1rem 0rem;
+    border-bottom: 0.2rem solid #4F152D;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h2, .new{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: #4F152D;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.container{
+    max-width: 37.5rem;
+    background-image: url("../assets/img/bg.png");
+    background-repeat: no-repeat;
+}
+
+.container__main{
+    max-width: 33rem;
+    margin: 0 auto 2rem auto;
+}
+
+.tekst{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+}
+
+.tip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip__tekst{
+    margin-left: 1.5rem;
+    width: 20rem;
+    font-size: 1.7rem;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.6rem;
+    color: black;
+    margin: 1rem 0rem;
+}
+
+.footer__buttons {
+    width: 35.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__button {
+    width: 17rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footer__button > a {
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+.light{
+    border: 0.2rem solid #4F152D;
+    background-color: white;
+}
+
+.light > a {
+    color: #4F152D;
+}
+
+.dark {
+    background-color: #4F152D;;
+}
+
+.dark > a {
+    color: white;
+}
